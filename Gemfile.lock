@@ -197,6 +197,6 @@ DEPENDENCIES
   mysql2
   rails (= 3.2.8)
   rails_admin!
-  rspec-rails (>= 2.0.1)
+  rspec-rails
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)

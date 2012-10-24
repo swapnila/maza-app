@@ -43,5 +43,8 @@ gem "haml-rails"
 gem "jquery-rails"
 gem "less"
 gem "rails_admin", :git => "git://github.com/sferik/rails_admin.git"
-gem "rspec-rails", ">= 2.0.1", :group => [:development, :test]
-gem "capybara", :group => [:development, :test]
+
+group :test, :development do
+	gem "capybara"
+	gem "rspec-rails"
+end
