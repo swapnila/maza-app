@@ -5,7 +5,7 @@ gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+gem 'pg'
 
 
 # Gems used only for assets and not required
@@ -19,8 +19,6 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
-
-
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -43,6 +41,7 @@ gem "haml-rails"
 gem "jquery-rails"
 gem "less"
 gem "rails_admin", :git => "git://github.com/sferik/rails_admin.git"
+gem "therubyracer"
 
 group :test, :development do
 	gem "capybara"
