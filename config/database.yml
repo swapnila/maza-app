@@ -5,7 +5,7 @@ development:
   database: maza_app_development
   pool: 5
   username: postgres
-  password: password
+  password: postgres
 
 test:
   adapter: postgresql
@@ -14,7 +14,7 @@ test:
   database: maza_app_test
   pool: 5
   username: postgres
-  password: password
+  password: postgres
 
 production:
   adapter: postgresql
